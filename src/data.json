@@ -1,0 +1,88 @@
+{
+    "links": [
+        {
+            "source":"node1",
+            "target": "rule1",
+            "value": 5
+        },
+        {
+            "source":"rule1",
+            "target": "node2",
+            "value": 5
+        },
+        {
+            "source":"node1",
+            "target": "rule2",
+            "value": 5
+        },
+        {
+            "source":"rule2",
+            "target": "node3",
+            "value": 5
+        },
+        {
+            "source":"node4",
+            "target": "rule2",
+            "value": 5
+        },
+        {
+            "source":"node4",
+            "target": "rule4",
+            "value": 5
+        },
+        {
+            "source":"rule4",
+            "target": "node5",
+            "value": 5
+        }
+    ],
+    "params":[
+        {
+            "id": "node1",
+            "group":1,
+            "value":10
+        },
+        {
+            "id": "node2",
+            "group":1,
+            "value":10
+        },
+        {
+            "id": "node3",
+            "group":1,
+            "value":10
+        },
+        {
+            "id": "node4",
+            "group":1,
+            "value":10
+        },
+        {
+            "id": "node5",
+            "group":1,
+            "value":10
+        }
+    ],
+    "rules":[
+        {
+            "id": "rule1",
+            "group":2,
+            "value":10
+        },
+        {
+            "id": "rule2",
+            "group":2,
+            "value":10
+        },
+        {
+            "id": "rule3",
+            "group":2,
+            "value":10
+        },
+        {
+            "id": "rule4",
+            "group":2,
+            "value":10
+        }
+    ]
+}
